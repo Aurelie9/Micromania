@@ -28,7 +28,7 @@ ventes_max = ventes_par_plateforme.max()
 
 print(f"La meilleure plateforme vidéo en termes de ventes est {meilleure_plateforme} avec un total de {ventes_max} ventes globales.")
 
-"""##meuilleur genre
+"""##meilleur genre
 
 """
 
@@ -41,7 +41,7 @@ ventes_max = ventes_par_genre.max()
 
 print(f"Le meilleur genre en termes de ventes est {meilleur_genre} avec un total de {ventes_max} ventes globales.")
 
-"""##Le meuilleur jeu vidéo
+"""##Le meilleur jeu vidéo
 
 """
 
