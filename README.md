@@ -43,3 +43,41 @@ plt.show()
 ```
 
 ![Analyse 3 micromania](https://github.com/Aurelie9/Micromania/assets/161243335/ba597b54-1db5-4056-84da-65fdd9925911)
+> La corrélation entre les ventes en Amérique du Nord et en Europe est : 0.7677666590359654. Dans le contexte des ventes de jeux vidéo par région, une corrélation positive élevée entre les ventes en Amérique du Nord et les ventes en Europe, pourrait indiquer que les jeux qui se vendent bien en Amérique du Nord ont tendance à se vendre également bien en Amérique du Sud.
+
+## Analyse n°3
+> Quelle est la région contribuant le plus aux ventes mondiales
+```python
+import matplotlib.pyplot as plt
+
+# Données de vente par région (Amérique du Nord, Europe, Japon, Autres régions, Ventes mondiales)
+ventes_par_region = {
+    'Amérique du Nord': 500,
+    'Europe': 300,
+    'Japon': 200,
+    'Autres régions': 150,
+    'Ventes mondiales': 1150
+}
+
+# Création des données pour le graphique
+regions = list(ventes_par_region.keys())
+ventes = list(ventes_par_region.values())
+
+# Création du diagramme à barres
+plt.figure(figsize=(10, 6))
+plt.bar(regions, ventes, color='blue')
+
+# Ajout de titres et d'étiquettes
+plt.title('Ventes de jeux vidéo par région')
+plt.xlabel('Région')
+plt.ylabel('Ventes (en millions)')
+plt.xticks(rotation=45)
+
+# Affichage du graphique
+plt.tight_layout()
+plt.show()
+```
+
+
+![analyse 4](https://github.com/Aurelie9/Micromania/assets/161243335/3095d4e2-2b6b-497b-b176-b2bf249d53b5)
+
