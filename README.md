@@ -1,7 +1,7 @@
 # Micromania
 Analyse des jeux vidéos vendus dans les magasins Micromania en Amérique du Nord en Europe et au Japon.
 
-## Exemple d'une analyse
+## Analyse n°1
 > Analyse des ventes des jeux vidéos au Japon
 
 ```python
@@ -24,3 +24,22 @@ plt.tight_layout()
 plt.show()
 ```
 ![Vente de jeux vidéos au Japon](https://github.com/Aurelie9/Micromania/assets/161243335/11532ae5-6d7e-4eb7-ba0d-a23b74834f94)
+
+## Analyse n°2 
+> Analyse des ventes des jeux vidéos entre l'Europe et l'Amérique du Nord
+```python
+# Calcul de la corrélation entre les ventes en Amérique du Nord et en Europe
+correlation = df['NA_Sales'].corr(df['EU_Sales'])
+
+print(f"La corrélation entre les ventes en Amérique du Nord et en Europe est : {correlation}")
+# Calculer la matrice de corrélation
+correlation_matrix = df.corr()
+
+# Afficher le graphique de la matrice de corrélation
+plt.figure(figsize=(12, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title("Matrice de Corrélation des Ventes de Jeux Vidéo par Région")
+plt.show()
+```
+
+![Analyse 3 micromania](https://github.com/Aurelie9/Micromania/assets/161243335/ba597b54-1db5-4056-84da-65fdd9925911)
