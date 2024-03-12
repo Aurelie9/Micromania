@@ -1,6 +1,11 @@
 # Micromania
 Analyse des jeux vidéos vendus dans les magasins Micromania en Amérique du Nord en Europe et au Japon.
 
+![micromania logo](https://github.com/Aurelie9/Micromania/assets/161243335/55b3c028-1615-4f59-8b96-57643f5784b9)
+
+![micromania_vidéo](https://github.com/Aurelie9/Micromania/assets/161243335/74f0f1c0-b11f-40dc-9107-0b94e00b00d1)
+
+
 ## Analyse n°1
 > Analyse des ventes des jeux vidéos au Japon
 
